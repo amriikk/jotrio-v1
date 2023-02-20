@@ -6,17 +6,18 @@ import { FiBook } from 'react-icons/fi'
 import { MdWork } from 'react-icons/md'
 import { RiServiceLine } from 'react-icons/ri'
 import { MdMessage } from 'react-icons/md'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('')
   return (
     <nav>
-      <a href="./"><BiHome /></a>
-      <a href="#about"><BiUser /></a>
-      <a href="#experience"><FiBook /></a>
-      <a href="#experience"><RiServiceLine /></a>
-      <a href="#portfolio"><MdWork /></a>
-      <a href="#contact"><MdMessage /></a>
-
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHome /></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><FiBook /></a>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><MdWork /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><MdMessage /></a>
     </nav>
   )
 }
