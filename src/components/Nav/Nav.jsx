@@ -1,12 +1,12 @@
 import React from 'react'
-import './nav.css'
+import { useState } from 'react'
 import { BiHome } from 'react-icons/bi'
 import { BiUser } from 'react-icons/bi'
 import { FiBook } from 'react-icons/fi'
 import { MdWork } from 'react-icons/md'
 import { RiServiceLine } from 'react-icons/ri'
 import { MdMessage } from 'react-icons/md'
-import { useState } from 'react'
+import './nav.css'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('')
