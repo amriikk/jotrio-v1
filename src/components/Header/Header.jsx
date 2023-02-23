@@ -17,8 +17,10 @@ const Header = () => {
             <div className="me">
               <img src={ME} alt="me" />
             </div>
+            <button onclick="myFunction()">Click Me</button>
 
             <a href="#contact" className='scroll__down'>Scroll Down</a>
+            
         </div>
     </header>
   )
