@@ -47,6 +47,10 @@ const About = () => {
             </article>
           </div>
         </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id consectetur dolores iusto! Cupiditate illum et, amet dolorum vel nisi molestiae fugiat velit impedit! Unde cupiditate officia pariatur delectus et.</p>
+
+        <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         
       </div>    
     </section>
