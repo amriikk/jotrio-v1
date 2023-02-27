@@ -1,4 +1,5 @@
 import React from 'react'
+import ME from '../../assets/me.png'
 import './about.css'
 
 const About = () => {
@@ -9,7 +10,7 @@ const About = () => {
     <div className="container about__container">
       <div className="about__me">
         <div className="about__me-image">
-          <img src={ME} alt="" />
+          <img src={ME} alt="me" />
         </div>
       </div>
     </div>    
