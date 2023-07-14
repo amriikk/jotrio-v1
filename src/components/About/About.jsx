@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id consectetur dolores iusto! Cupiditate illum et, amet dolorum vel nisi molestiae fugiat velit impedit! </p>
+        <p>I am so happy and grateful now that money comes to me in increasing quantities from multiple sources on a continuous basis. Fiat Lux!  </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         
