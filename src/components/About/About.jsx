@@ -18,8 +18,6 @@ const About = () => {
           </div>
         </div>
 
-        <br /><br /><br />
-
         <div className="about__content">
           <div className="about__cards">
 
@@ -38,24 +36,20 @@ const About = () => {
               <h5>Projects</h5>
               <small>View Portfolio</small>
             </article>
-
+          
           </div>
-        </div>
-
-        <br />
-
-        <div className='about__bio'>
-          <h2>👨‍💻 Code Crafter | 🧘‍♂️ Yoga Yogi | 🌱 Plant Propagating Papi ✨</h2>
-            <p>
+          <br />
+          <div className='about__bio'>
+          <h3>👨‍💻 Code Crafter | 🧘‍♂️ Yoga Yogi | 🌱 Plant Propagating Papi ✨</h3>
+          <p>
               Embarking on a digital odyssey as a Software Engineering student at UCSB, I'm a tech-savvy wanderer weaving intricate code tapestries. With a heart rooted in mathematics and a mind soaring through creativity, I'm not just a developer – I'm a full-stack virtuoso.
               When I'm not in the binary realm, you'll find me guiding tranquil yoga sessions or nurturing lush Devil’s Ivy in crystalline containers. From Santa Barbara's shores to the buzzing cannabis industry, I'm a connoisseur of life's diverse flavors. 
               Join me on this journey of coding, culture, and creating connections. 
               <br /><br /> Welcome to the realm of possibilities. 🚀🌿🧘‍♂️
           </p>
+          </div>
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
-
         </div>
-
       </div>
     </section>
     
